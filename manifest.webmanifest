@@ -1,0 +1,25 @@
+{
+  "name": "Empresa Demo — Gestão Empresarial",
+  "short_name": "Empresa Demo",
+  "description": "Sistema integrado de gestão: vendas, stock, despesas, compras, clientes e dashboard.",
+  "lang": "pt",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0A0E14",
+  "theme_color": "#0A0E14",
+  "categories": ["business", "productivity", "finance"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ],
+  "shortcuts": [
+    { "name": "Nova venda", "url": "./index.html#/pdv" },
+    { "name": "Stock", "url": "./index.html#/stock" },
+    { "name": "Despesas", "url": "./index.html#/despesas" }
+  ]
+}
